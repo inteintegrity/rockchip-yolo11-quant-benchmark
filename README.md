@@ -1,5 +1,7 @@
 # YOLO11n Quantization Benchmark on Rockchip RK3576
 
+![YOLO11n INT8 inference on RK3576](assets/inference-int8.png)
+
 This project converts one YOLO11n ONNX model to FP16, INT8/W8A8, and W4A16 RKNN models and benchmarks them on a reComputer RK3576 under a repeatable test protocol.
 
 W4A16 means 4-bit weights and 16-bit activations. It is 4-bit **weight quantization**, not a fully W4A4 or “pure INT4” network.
