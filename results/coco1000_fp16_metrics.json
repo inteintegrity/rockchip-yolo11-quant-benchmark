@@ -1,0 +1,15 @@
+{
+  "model": "/home/seeed/rockchip-yolo11-quant-benchmark/models/yolo11n_fp16.rknn",
+  "images": 1000,
+  "predictions": 300000,
+  "confidence": 0.001,
+  "nms": 0.65,
+  "max_detections": 300,
+  "map_50_95": 0.39989975298358577,
+  "map_50": 0.5559250944419264,
+  "map_75": 0.4332604626524176,
+  "map_small": 0.20957687410250048,
+  "map_medium": 0.43390151077599526,
+  "map_large": 0.60390464147852,
+  "mar_100": 0.546355548542642
+}

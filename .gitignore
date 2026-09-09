@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+.matplotlib/
+
+# Generated models and downloaded COCO images
+models/
+data/coco_val1000/
+
+# Large or reproducible intermediate outputs
+results/*_predictions.json
+results/results_export.tar.gz
+results/*.log
+
+# Local article drafts and duplicate cover export
+/hackster-project-*.md
+/rockchip-4bit-quantization-*.md
+/4010bd6a-9c70-4513-8fdb-6088a08f9b5e.png
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

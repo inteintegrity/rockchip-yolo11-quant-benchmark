@@ -1,0 +1,22 @@
+{
+  "source_annotations": "D:\\rk3576\\Coral with rk3576\\benchmark_staging\\instances_val2017.json",
+  "source_annotations_sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "selection": "Python random.Random(seed).sample over COCO image IDs, then sorted by image ID",
+  "seed": 3576,
+  "images": 1000,
+  "annotations": 7455,
+  "first_image_ids": [
+    872,
+    2157,
+    3255,
+    4395,
+    4765,
+    5503,
+    6213,
+    6771,
+    7816,
+    8211
+  ],
+  "output_annotations": "D:\\rk3576\\Coral with rk3576\\benchmark_staging\\instances_val2017_subset1000_seed3576.json",
+  "output_annotations_sha256": "9ecb4428decfbd176bdff26ad7c9f80d416656bffa195debd73e038efc6c4d13"
+}

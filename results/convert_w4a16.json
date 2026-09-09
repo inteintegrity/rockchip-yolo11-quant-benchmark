@@ -1,0 +1,32 @@
+{
+  "precision": "w4a16",
+  "target": "rk3576",
+  "quantized_dtype": "w4a16",
+  "quantized_algorithm": "normal",
+  "quantized_method": "channel",
+  "do_quantization": true,
+  "mean_values": [
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "std_values": [
+    [
+      255,
+      255,
+      255
+    ]
+  ],
+  "onnx": "/home/seeed/rockchip-yolo11-quant-benchmark/models/yolo11n.onnx",
+  "onnx_bytes": 10527859,
+  "onnx_sha256": "62a3751662e06c678debb54b113c211d918f245ea6d3aea0b09fc418b8fc7705",
+  "dataset": "/home/seeed/rockchip-yolo11-quant-benchmark/data/coco_subset_20.txt",
+  "output": "/home/seeed/rockchip-yolo11-quant-benchmark/models/yolo11n_w4a16.rknn",
+  "output_bytes": 4553353,
+  "output_sha256": "7ce23813dc4a7524f4e1de7b97be6a2e1a916bb83549229b3e64288687f974fc",
+  "conversion_seconds": 27.246980905532837,
+  "rknn_toolkit2": "2.3.2",
+  "python": "3.11.2"
+}

@@ -1,0 +1,121 @@
+{
+  "precision": "w4a16",
+  "model": "/home/seeed/rockchip-yolo11-quant-benchmark/models/yolo11n_w4a16.rknn",
+  "model_bytes": 4553353,
+  "model_sha256": "7ce23813dc4a7524f4e1de7b97be6a2e1a916bb83549229b3e64288687f974fc",
+  "input_shape": [
+    1,
+    640,
+    640,
+    3
+  ],
+  "input_dtype": "uint8",
+  "core_mask": "NPU_CORE_0_1",
+  "warmup_iterations": 50,
+  "measured_iterations": 500,
+  "load_seconds": 0.004463201970793307,
+  "init_seconds": 0.14284644700819626,
+  "measured_wall_seconds": 27.806928969046567,
+  "mean_ms": 55.609774965999996,
+  "median_ms": 54.0001645,
+  "p95_ms": 60.915479,
+  "stddev_ms": 3.220402698061363,
+  "min_ms": 51.247906,
+  "max_ms": 75.877799,
+  "fps_from_mean": 17.982450038889805,
+  "rss_initial_bytes": 40914944,
+  "rss_after_load_bytes": 52805632,
+  "rss_after_init_bytes": 62570496,
+  "rss_peak_bytes": 229961728,
+  "system_available_initial_bytes": 7542534144,
+  "system_available_min_bytes": 7359819776,
+  "output_shapes": [
+    [
+      1,
+      64,
+      80,
+      80
+    ],
+    [
+      1,
+      80,
+      80,
+      80
+    ],
+    [
+      1,
+      1,
+      80,
+      80
+    ],
+    [
+      1,
+      64,
+      40,
+      40
+    ],
+    [
+      1,
+      80,
+      40,
+      40
+    ],
+    [
+      1,
+      1,
+      40,
+      40
+    ],
+    [
+      1,
+      64,
+      20,
+      20
+    ],
+    [
+      1,
+      80,
+      20,
+      20
+    ],
+    [
+      1,
+      1,
+      20,
+      20
+    ]
+  ],
+  "output_dtypes": [
+    "float32",
+    "float32",
+    "float32",
+    "float32",
+    "float32",
+    "float32",
+    "float32",
+    "float32",
+    "float32"
+  ],
+  "output_checksum": 494060.2677593827,
+  "temperatures_start_c": {
+    "little-core-thermal": 37.922,
+    "soc-thermal": 36.076,
+    "gpu-thermal": 37.922,
+    "ddr-thermal": 35.153,
+    "bigcore-thermal": 36.999,
+    "npu-thermal": 35.153
+  },
+  "temperatures_end_c": {
+    "little-core-thermal": 37.922,
+    "soc-thermal": 36.999,
+    "gpu-thermal": 37.922,
+    "ddr-thermal": 36.076,
+    "bigcore-thermal": 37.922,
+    "npu-thermal": 36.076
+  },
+  "npu_frequency_start_hz": "950000000",
+  "npu_frequency_end_hz": "950000000",
+  "rknn_toolkit_lite2": "2.3.2",
+  "python": "3.11.2",
+  "kernel": "6.1.115-vendor-seeed-rk3576"
+}

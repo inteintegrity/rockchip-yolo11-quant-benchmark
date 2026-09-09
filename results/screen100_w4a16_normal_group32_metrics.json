@@ -1,0 +1,15 @@
+{
+  "model": "/home/seeed/rockchip-yolo11-quant-benchmark/models/yolo11n_w4a16_normal_group32.rknn",
+  "images": 100,
+  "predictions": 19234,
+  "confidence": 0.001,
+  "nms": 0.65,
+  "max_detections": 300,
+  "map_50_95": 0.0919261243731798,
+  "map_50": 0.15503284795960579,
+  "map_75": 0.1057455269181393,
+  "map_small": 0.07865240579049487,
+  "map_medium": 0.09329299690186836,
+  "map_large": 0.1535055940949112,
+  "mar_100": 0.1821332324717201
+}
